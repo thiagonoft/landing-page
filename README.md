@@ -1,2 +1,2 @@
 # landing-page
-The Odin Project Foundation's Course assignment. 
+The Odin Project's Foundations Course assignment. 
