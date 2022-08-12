@@ -104,6 +104,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -167,6 +168,7 @@ a {
     align-items: center;
     gap: 2rem;
     border: 1px solid black;
+    flex: auto;
 }
 
 .advertise-text {
