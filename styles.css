@@ -1,1 +1,201 @@
+* {
+    font-family: "Helvetica", arial, sans-serif;
+}
 
+body {
+   background-image: url(images/warwick.jpg);
+   background-repeat: no-repeat;
+   background-size: 100vw 100vh;
+   background-attachment: fixed;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+header {
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right img {
+    width: 35vw;
+    
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5rem;
+    margin-bottom: 15rem;
+}
+.content {
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    display: flex;
+    text-shadow: 0 0 0.8rem;
+    color: white;
+    padding: 2.5rem 15rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.left {
+    width: 30rem;
+}
+
+.left h1 {
+    margin: 0 0 0.2rem 0;
+    font-size: 5rem;
+}
+
+.left h4 {
+    margin: 0.2rem 0 0 0;
+}
+
+.content-text {
+    text-align: justify;
+    margin-top: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+.second-container, .fourth-container {
+    background-image: linear-gradient(#183f08,#061101);
+    padding: 4rem 0 10rem 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 0 0.4rem;
+    margin-bottom: 3rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.item img {
+    width: 5rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.minitext {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.third-container {
+    background-image: url(images/691677.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    color: white;
+    text-shadow: 0 0 0.8rem;
+    padding: 4rem 20rem 20rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotation-text {
+    font-size: 6rem;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 1rem black, 0 0 2rem black;
+}
+
+.quotation-author {
+    font-size: 3rem;
+    margin-left: auto;
+}
+
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+.advertise {
+    background-color: #0b1f02;
+    padding: 3rem 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid black;
+}
+
+.advertise-text {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.advertise-bottom {
+    width: 20rem;
+    text-align: justify;
+}
+
+.advertise-left {
+    width: 30rem;
+}
+
+.sign-up {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+footer {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+}
